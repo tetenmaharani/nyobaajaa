@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <little> Vue Begginners.</little>
+        <link href ="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+        <style>
+            body{
+                margin: 5%;
+                font-family: 'Quicksand', sans-serif;
+            }
+        </style>
+    </head>
+     <footer id="footer">
+        <p>copyright 2019</p>
+     </footer>
+
+     <div id= "app"
+     <header>
+        <img src="c:\Users\user\Downloads\th.jpeg" width="80">
+        <h1>MENCOBA UNTUK BELAJAR Vue.js</h1>
+        <p> The progressive
+        JavaScript Framework</p>
+     </header>   
+     </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+     <script>
+        const member = {
+            //string, number, boolean, array, object
+            name : 'Doremi Fasilasido'
+            Massage : "Hello Word!"
+        } 
+       const vm = new Vue({
+        el:'#app'
+        data : member 
+       })
+     </script>
+    </body>
+    </html>
